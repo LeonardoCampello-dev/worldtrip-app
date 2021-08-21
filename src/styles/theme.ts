@@ -14,9 +14,10 @@ export const theme = extendTheme({
       '400': '#47585B',
       '300': '#9699B0',
       '200': '#B3B5C6',
-      '100': '#D1D2DC',
+      '100': '#DADADA',
       '50': '#EEEEF2'
-    }
+    },
+    white: '#F5F8FA'
   },
   fonts: {
     heading: 'Poppins',
@@ -25,7 +26,6 @@ export const theme = extendTheme({
   styles: {
     global: {
       body: {
-        bg: 'gray.50',
         color: 'gray.400'
       }
     }
